@@ -1,0 +1,48 @@
+body {
+  background-color: #333;
+}
+#calculator {
+  background-color: #6DC;
+  width: 250px;
+  height: 300px;
+  margin: 100px auto;
+  border-style: solid;
+  border-radius: 20px;
+}
+#display {
+  height: 50px;
+  margin: 20px 10px 25px 10px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #CDD;
+}
+#memory {
+  height: 15px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+#answer {
+  height: 30px;
+  font-size: 24px;
+  margin-right: 5px;
+}
+.key {
+  height: 30px;
+  width: 17%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 0px 8px 9px 11px;
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 800;
+  background-color: #EEE;
+}
+#empty {
+  border-width: 0px;
+  font-size: 10px;
+  margin-left: 0px;
+  background-color: #6DC;
+}
